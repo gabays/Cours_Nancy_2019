@@ -272,3 +272,8 @@ Forte granularité
       <w lemme="employer" POS="VERcjg">emploie<w>
      ...
 ```
+
+---
+### Exercices
+
+cf. [le dossier](https://github.com/gabays/Cours_Nancy_2019/tree/master/TEI_1/TEI_1_exo)

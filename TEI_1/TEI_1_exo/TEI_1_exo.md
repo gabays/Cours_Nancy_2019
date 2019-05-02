@@ -1,13 +1,9 @@
 Cours Nancy 2019
 
-# TEI (1ère partie): un premier document en TEI
+# TEI (1ère partie): un premier document en TEI: Exercices
 
 Simon Gabay
 Nancy, Jeudi 2 mai 2019
-
----
-
-# Exercices
 
 ---
 
@@ -25,7 +21,7 @@ Créez votre premier document TEI.
 ![60% center](../TEI_1_images/Oxygen_3.png)
 
 ---
-5. Remplacez le contenu de ```<text>``` par le texte contenu de ```TEI_1.txt```, sachant que
+5. Remplacez le contenu de ```<text>``` par le texte contenu de ```TEI_1.txt``` ([ici](https://github.com/gabays/Cours_Nancy_2019/blob/master/TEI_1/TEI_1_exo/TEI_1.txt)), sachant que
 	5.1 Un poème est contenu dans une balise ```<div>```
 	5.2 Un titre est contenu dans une balise ```<head>```
 	5.3 Une strophe est contenue dans une balise ```<lg>```
@@ -33,4 +29,4 @@ Créez votre premier document TEI.
 6.  Si vous avez fini, vous pouvez utiliser des attributs
 	6.1 L'élément ```<div>``` peut porter un attribut ```@type```. Dites que c'est un sonnet.
 	6.2 L'élément ```<lg>``` peut porter un attribut ```@rhyme```. Précisez le schéma des rimes (_ABBA ABBA CCD_ …)
-	6.3 Vous pouvez identifier les mots à la rime avec l'élément ```<rhyme>```, et un attribut ```@label``` permet d'identifier à quelle partie du schéma métrique le mot se rattache (_a_, _b_, _c_ ou _d_?)w 
+	6.3 Vous pouvez identifier les mots à la rime avec l'élément ```<rhyme>```, et un attribut ```@label``` permet d'identifier à quelle partie du schéma métrique le mot se rattache (_a_, _b_, _c_ ou _d_?)
