@@ -3,13 +3,13 @@ Formation Nancy 2019
 # TEI (3ème partie): vers la publication web
 
 Simon Gabay
-Nancy, Jeudi 2 mai 2019
+Nancy, Jeudi 3 mai 2019
 
 ---
 ## HTML
 ---
 
-### HTML 
+### HTML
 
 HTML, pour _Hypertext Markup Language_, est un langage de balisage inventé en 1997 conçu pour représenter les pages web.
 
@@ -156,11 +156,11 @@ CSS (_Cascading Style Sheets_) est un langage informatique qui décrit la pré
 
 Plus d'informations sur [Wikipedia](https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade)
 
---- 
+---
 ### Sélection
 
-|SELECTEUR | DECLARATION 
-|--- | --- 
+|SELECTEUR | DECLARATION
+|--- | ---
 |sélecteur| {
 | | propriété1: valeur1;
 | | propriété2: valeur2;
