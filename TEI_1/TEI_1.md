@@ -277,3 +277,8 @@ Forte granularité
 ### Exercices
 
 cf. [le dossier](https://github.com/gabays/Cours_Nancy_2019/tree/master/TEI_1/TEI_1_exo)
+
+---
+### Sources
+
+Ce cours reprend des parties d'un cours donné avec J.-B. Camps à Neuchâtel en février 2018.
