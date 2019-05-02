@@ -22,11 +22,11 @@ Ce langage de balisage fonctionne de manière simple
 ```XML
     <élément attribut="valeur">donnée</élément>
 ```
-1. 􏰀Un ```<élément>``` est entre chevrons
-2. 􏰀Une ```<balise>``` doit être fermé ```</balise>```
-3. 􏰀Une ```<balise1>``` ne doit ```<balise2>``` pas être croisée ```</balise1>``` avec un autre ```</balise2>```
-4. 􏰀Une ```<balise/>``` peut être auto-fermante
-5. 􏰀Un ```<élément>``` peut porter un @attribut (noté
+1. Un ```<élément>``` est entre chevrons
+2. Une ```<balise>``` doit être fermé ```</balise>```
+3. Une ```<balise1>``` ne doit ```<balise2>``` pas être croisée ```</balise1>``` avec un autre ```</balise2>```
+4. Une ```<balise/>``` peut être auto-fermante
+5. Un ```<élément>``` peut porter un @attribut (noté
 avec un ```@```)
 6. L’@attribut a une "valeur" (entre guillemets)
 
@@ -100,20 +100,20 @@ Une question fondamentale
 
 - TEI pour _Text Encoding Initiative_
 - Elle est créé en 1987 (donc avant internet)
-- 􏰀La TEI est pilotée par un consortium qui maintient et développe des recommandations pour l’encodage des textes
+- La TEI est pilotée par un consortium qui maintient et développe des recommandations pour l’encodage des textes
 - Ces recommandations sont en constante évolution
-- 􏰀Elles sont disponibles en ligne http://www.tei-c.org/guidelines/
+- Elles sont disponibles en ligne http://www.tei-c.org/guidelines/
 
 ---
 
 ### Entre vocabulaire et langage
-􏰀
+
 Il existe d’autres vocabulaires XML que la TEI, comme
 - l’EAD (_Encoded Archival Description_) pour les archivistes
 - le DC (_Dublin Core_) pour les bibliothécaires
 - le TMX (_Translation Memory eXchange_)
 
-􏰀Ces vocabulaires peuvent d’ailleurs être exprimés avec d’autres langages (comme RDF-DC en turtle).
+Ces vocabulaires peuvent d’ailleurs être exprimés avec d’autres langages (comme RDF-DC en turtle).
 􏰀Pour cette raison, on parle de XML-TEI, (ainsi il a existé un SGML-TEI).
 
 ---
@@ -121,7 +121,7 @@ Il existe d’autres vocabulaires XML que la TEI, comme
 ### Trois particularités de la TEI
 
 1. Le vocabulaire est en anglais : on utilise une balise ```<w>``` (_word_) pour un ```<w>mot</w>```
-2. 􏰀Il est limité: on ne peut (presque) pas inventer de nouvelles balises
+2. Il est limité: on ne peut (presque) pas inventer de nouvelles balises
 3. Il propose autant que possible un encodage sémantique (à l’inverse de LaTeX, par exemple)
 
 ---
