@@ -1,12 +1,22 @@
 Formation Nancy 2019
 
-# TEI (1ère partie): un premier document en TEI
+# TEI (5ème partie): Exercice
 
 Simon Gabay
 Nancy, Jeudi 2 mai 2019
 
 ---
-## Principes de base
----
+## Exercices
 
-### KÃ©zaco?
+Encodez le document ```TEI_5.txt```. Pour l'instant, considérez que le passage commençant par
+"1691. — Où et comment ces Mémoires commencés…" est un paragraphe normal. Pour encoder le document,
+vous pouvez utiliser les éléments suivants:
+
+1. ```<persName>``` pour les noms de personnes
+2. ```<placeName>``` pour les noms de lieux
+3. ```<p>``` pour les paragraphes
+4. ```<head>``` pour les chapeaux/titres
+5. ```<date>``` pour les dates, avec un ```@when="YYYY-MM-DD"```, ```@from="YYYY-MM-DD"``` et/ou @to="YYYY-MM-DD".
+
+Vous avez fini? Reprenez le paragraphe commençant par "1691. — Où et comment ces Mémoires commencés…"
+Plutôt que ```<p>```, vous pouvez utiliser les éléments ```<list>``` et ```<item>```. Ajoutez les métadonnées.
