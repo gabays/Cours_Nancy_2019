@@ -18,5 +18,4 @@ vous pouvez utiliser les éléments suivants:
 4. ```<head>``` pour les chapeaux/titres
 5. ```<date>``` pour les dates, avec un ```@when="YYYY-MM-DD"```, ```@from="YYYY-MM-DD"``` et/ou @to="YYYY-MM-DD".
 
-Vous avez fini? Reprenez le paragraphe commençant par "1691. — Où et comment ces Mémoires commencés…"
-Plutôt que ```<p>```, vous pouvez utiliser les éléments ```<list>``` et ```<item>```. Ajoutez les métadonnées.
+Vous avez fini? Reprenez le paragraphe commençant par "1691. — Où et comment ces Mémoires commencés…" Plutôt que ```<p>```, vous pouvez utiliser les éléments ```<list>``` et ```<item>```. Ajoutez les métadonnées. Pour les notes de bas de page, vous pouvez les mettre dans une baliser ```<note>```, et la déplacer à l'endroit où se trouve l'appel de note (que l'on peut donc effacer).
