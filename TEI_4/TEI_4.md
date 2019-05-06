@@ -32,7 +32,7 @@ Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:XSLT_en.svg)
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
     version="2.0">
-    
+
 </xsl:stylesheet>
 ```
 
@@ -73,7 +73,7 @@ Il est possible de faire l'économie de cette précision en déclarant une seule
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    exclude-result-prefixes="xs"
    version="2.0">
-    
+
 </xsl:stylesheet>
 ```
 
@@ -99,7 +99,7 @@ Une feuille XSLT ne modifie pas un fichier: il retire toutes les balises. Si l'o
 ```XML
 <xsl:template match="unElement">
   <xsl:apply-templates/>
-</xsl:template> 
+</xsl:template>
 ```
 
 Pour "copier-coller" l'élément ```<head>``` de cet exemple
@@ -113,7 +113,7 @@ il faut le remettre:
 ```XML
 <xsl:template match="head">
   <head><xsl:apply-templates/></head>
-</xsl:template> 
+</xsl:template>
 ```
 
 ---
@@ -131,7 +131,7 @@ il faut appliquer la règle suivante:
 ```XML
 <xsl:template match="head">
   <h1><xsl:apply-templates/></h1>
-</xsl:template> 
+</xsl:template>
 ```
 On traduit ainsi le document XML en HTML:
 
@@ -252,7 +252,7 @@ Pour modifier un document XML-TEI avec uniquement une ```<div>```:
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    exclude-result-prefixes="xs" version="2.0"
    xpath-default-namespace="http://www.tei-c.org/ns/1.0">
-  
+
   <xsl:template match="/">
     <html>
       <head>
@@ -261,11 +261,11 @@ Pour modifier un document XML-TEI avec uniquement une ```<div>```:
       <body><xsl:apply-templates/></body>
     </html>
   </xsl:template>
-  
+
   <xsl:template match="div">
     <div><xsl:apply-templates/></div>
   </xsl:template>
-  
+
 </xsl:stylesheet>
 ```
 
@@ -281,7 +281,7 @@ Dans la règle que nous avons mentionné au tout début, il convient de corriger
 ```XML
 <xsl:template match="unElement">
   <xsl:apply-templates/>
-</xsl:template> 
+</xsl:template>
 ```
 
 Dans cet exemple ```unElement``` n'est pas exactement le nom d'un élément, mais une fonction XPath.
@@ -391,7 +391,7 @@ Ou que l'on veut un élément avec un attribut précis (attention aux guillemets
 
 ### La famille xml
 
-On décrit souvent le fonctionnel sur un mode généalogique:
+On décrit souvent le XML sur un mode généalogique (on parle "d'axe"):
 
 ```XML
 <a>
@@ -405,10 +405,10 @@ On décrit souvent le fonctionnel sur un mode généalogique:
 
 Dans ce cas:
 
-1. ```<b>``` est le parent de ```<c>```
-2. ```<b>``` est l'enfant de ```<a>```
-3. ```<c>``` est le descendant de ```<a>```
-4. ```<a>``` est l'ancêtre de ```<c>```
+1. ```<b>``` est le parent (_parent_) de ```<c>```
+2. ```<b>``` est l'enfant (_child_) de ```<a>```
+3. ```<c>``` est le descendant (_descendant_) de ```<a>```
+4. ```<a>``` est l'ancêtre (_ancestor_) de ```<c>```
 
 ---
 
@@ -430,7 +430,7 @@ Il est possible d'utiliser ces informations généalogiques pour localiser des �
 //c[parent::a]
 ```
 
-est l'équivalent de 
+est l'équivalent de
 
 ```console
 /a/c
