@@ -6,7 +6,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Edition numérique du premier sommet des Amours</title>
+            <title>Edition numérique du premier sonnet des Amours</title>
             <author>Ronsard</author>
             <editor xml:id="JLL">
                <forename>Simon</forename>
@@ -80,12 +80,12 @@
                <l>Me vienne voir: Il voirra ma douleur,</l>
                <l>Et la rigueur de l'Archer qui me donte.</l>
             </lg>
-            <lg type="quatrain">
+            <lg type="tercet">
                <l>Il cognoistra combien la raiſon peult</l>
                <l>Contre ſon arc, quand vne fois il veult</l>
                <l>Que nostre cuœur ſon eſclaue demeure:</l>
             </lg>
-            <lg type="quatrain">
+            <lg type="tercet">
                <l>Et ſi voirra que ie ſuis trop heureux,</l>
                <l>D'auoir au flanc l'aiguillon amoureux,</l>
                <l>Plein du venin dont il fault que ie meure.</l>
