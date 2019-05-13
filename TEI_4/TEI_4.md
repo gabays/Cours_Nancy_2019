@@ -1,6 +1,6 @@
 Formation Nancy 2019
 
-# TEI (4ème partie): du XMl au HTML
+# TEI (4ème partie): du XML au HTML
 
 Simon Gabay
 Nancy, Jeudi 3 mai 2019
